@@ -1,16 +1,29 @@
-# React + Vite
+# IoT Enabled Predictive Maintenance Using FBG Sensors
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+An IoT-enabled predictive maintenance system using Fiber Bragg Grating (FBG) vibration sensors and MATLAB-based machine learning models.
 
-Currently, two official plugins are available:
+## Features
+- Signal filtering
+- FFT analysis
+- Feature extraction
+- SVM, RBFNN, PLSR and LSTM comparison
+- Remaining Useful Life prediction
+- Interactive health dashboard
+- ThingSpeak cloud integration
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Technologies Used
+- MATLAB
+- ThingSpeak
+- Machine Learning Toolbox
+- Deep Learning Toolbox
+- Fiber Bragg Grating Sensors
 
-## React Compiler
+## Dataset
+FBG vibration dataset containing nine fault signals.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Results
+- Fault classification
+- RUL prediction
+- Dashboard visualization
+- Cloud monitoring via ThingSpeak
